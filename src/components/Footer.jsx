@@ -3,7 +3,7 @@ function Footer(){
   <footer className="footer" id="about">
     <div className="footer-inner">
       <div className="footer-brand">
-        <img src="/assets/logo-text.png" alt="Dev Stack"/>
+        <img src={`${import.meta.env.BASE_URL}assets/logo-text.png`} alt="Dev Stack"/>
         <p>Curated tools, technologies, and resources for developers building modern software.</p>
         <div className="social-links">
           <a href="https://github.com/" target="_blank" rel="noreferrer">GitHub</a>
