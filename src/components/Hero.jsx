@@ -9,6 +9,6 @@ function Hero(){
           <a className="primary-button" href="#technologies">Explore Technologies</a>
           <a className="secondary-button" href="#technologies">Learn More</a></div></div>
           <div className="hero-image">
-            <img src="/assets/banner-stack.png" alt="Illustration of a modern development stack"/></div></div></section>
+            <img src={`${import.meta.env.BASE_URL}assets/banner-stack.png`} alt="Illustration of a modern development stack"/></div></div></section>
             );}
             export default Hero;
