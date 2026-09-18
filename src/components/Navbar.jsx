@@ -8,9 +8,9 @@ function Navbar(){
   <header className="navbar">
     <div className="navbar-inner">
       <button className="hamburger-button" onClick={()=>setMenuOpen(!menuOpen)} aria-label="Open navigation menu">
-        <img src="/assets/hamburger.png" alt=""/></button>
+        <img src={`${import.meta.env.BASE_URL}assets/hamburger.png`} alt=""/></button>
         <a className="brand" href="#home">
-          <img src="/assets/logo-text.png" alt="Dev Stack"/></a>
+        <img src={`${import.meta.env.BASE_URL}assets/logo-text.png`} alt="Dev Stack"/></a>
           <nav className={menuOpen ? "nav-links open" : "nav-links"}>
             <a href="#home" onClick={closeMenu}>Home</a>
             <a href="#technologies" onClick={closeMenu}>Technologies</a>
